@@ -21,8 +21,6 @@ ODM_MANIFEST_N_FILES := $(DEVICE_PATH)/sku/manifest_n.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=bangkk
-TARGET_KERNEL_CLANG_VERSION := neutron
-TARGET_KERNEL_ADDITIONAL_FLAGS += HOSTCC=$(BUILD_TOP)/prebuilts/clang/host/linux-x86/clang-r596125/bin/clang
 TARGET_KERNEL_CONFIG += vendor/ext_config/moto-holi-bangkk.config
 TARGET_KERNEL_CONFIG += vendor/ext_config/bangkk-lineage.config
 
